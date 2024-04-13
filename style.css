@@ -1,0 +1,324 @@
+body {
+    background-color: #E8FAF3;
+    font-family: Tahoma ;
+}
+.beauty {
+	color: white;
+	text-shadow: 0 0 5px #377BBA;
+	background-image: linear-gradient(to bottom right, #E1F6E7, #CEE5EF);
+	margin-top: 30px;
+	margin-left: 15px;
+	padding: 5px;
+	width: 100%;
+    font-size: 22px;
+}
+.nature h2 {
+	color: white;
+	text-shadow: 0 0 5px #377BBA;
+	margin-left: 25px;
+	width: 100%;
+  font-size: 27px;
+}
+.nature .slider {
+  position: relative;
+  width: 680px;
+  margin: 25px;
+  box-shadow: 0 0px 4px 0px #39AE5A;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.nature .slider:hover {
+	box-shadow: 0 0px 4px 0px #7BB5EA;
+}
+
+.nature .slider input[name="switch"] {
+  display: none;
+}
+
+.nature .switch {
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  text-align: center;
+  width: 100%;
+}
+
+.nature .switch label {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  margin: 0 3px;
+  box-shadow: 0 0 7.5px 0 #7BB5EA;
+  border-radius: 50%;
+  border: 5px solid #96CCFE;
+  background-color: #96CCFE;
+  transition: 0.3s;
+}
+
+.nature #btn1:checked~.switch label[for="btn1"] {
+  background-color: #96CCFE;
+  transition: 0.3s;
+}
+
+.nature #btn2:checked~.switch label[for="btn2"] {
+  background-color: #96CCFE;
+  transition: 0.3s;
+}
+
+.nature #btn3:checked~.switch label[for="btn3"] {
+  background-color: #96CCFE;
+  transition: 0.3s;
+}
+
+.nature .slider-inner {
+  overflow: hidden;
+}
+
+.nature .slides {
+  width: 300%;
+  transition: all 0.5s;
+}
+
+.nature .slides img {
+  width: 680px;
+  height: 340px;
+  float: left;
+  border-radius: 10px;
+}
+
+.nature #btn1:checked~slider-inner slides {
+  transform: translate(0);
+}
+
+.nature #btn2:checked~.slider-inner .slides {
+  transform: translate(-680px);
+}
+
+.nature #btn3:checked~.slider-inner .slides {
+  transform: translate(-1360px);
+}
+.nature #btn1:checked~.switch label[for="btn1"]:hover {
+  background-color: #94e4a9;
+}
+.nature #btn2:checked~.switch label[for="btn2"]:hover {
+  background-color: #94e4a9;
+}
+.nature #btn3:checked~.switch label[for="btn3"]:hover {
+  background-color: #94e4a9;
+}
+.nature .switch label:hover {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  margin: 0 3px;
+  box-shadow: 0 0 7.5px 0 #7bea81;
+  border-radius: 50%;
+  border: 5px solid #94e4a9;
+  background-color: #94e4a9;
+}
+.nature p {
+	color: #8EB4FE;
+	text-shadow: 0 0 7px #A2FFC7;
+	margin-left: 25px;
+	width: 725px;
+  margin-top: 50px;
+}
+.nature iframe {
+  margin-left: 8.5px;
+  border-radius: 10px;
+  box-shadow: 0 0 4px 0 #7BB5EA;
+}
+.nature iframe:hover {
+  margin-left: 8.5px;
+  border-radius: 10px;
+  box-shadow: 0 0 4px 0 #39AE5A;
+}
+
+.islands .slider {
+  position: relative;
+  width: 680px;
+  margin: 25px;
+  box-shadow: 0 0px 4px 0px #39AE5A;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.islands .slider:hover {
+	box-shadow: 0 0px 4px 0px #7BB5EA;
+}
+
+.islands .slider input[name="switch"] {
+  display: none;
+}
+
+.islands .switch {
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  text-align: center;
+  width: 100%;
+}
+
+.islands .switch label {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  margin: 0 3px;
+  box-shadow: 0 0 7.5px 0 #7BB5EA;
+  border-radius: 50%;
+  border: 5px solid #96CCFE;
+  background-color: #96CCFE;
+  transition: 0.3s;
+}
+
+.islands #btn4:checked~.switch label[for="btn1"] {
+  background-color: #96CCFE;
+  transition: 0.3s;
+}
+
+.islands #btn5:checked~.switch label[for="btn2"] {
+  background-color: #96CCFE;
+  transition: 0.3s;
+}
+
+.islands #btn6:checked~.switch label[for="btn3"] {
+  background-color: #96CCFE;
+  transition: 0.3s;
+}
+
+.islands .slider-inner {
+  overflow: hidden;
+}
+
+.islands .slides {
+  width: 300%;
+  transition: all 0.5s;
+}
+
+.islands .slides img {
+  width: 680px;
+  height: 340px;
+  float: left;
+  border-radius: 10px;
+}
+
+.islands #btn4:checked~slider-inner slides {
+  transform: translate(0);
+}
+
+.islands #btn5:checked~.slider-inner .slides {
+  transform: translate(-680px);
+}
+.islands #btn6:checked~.slider-inner .slides {
+  transform: translate(-1360px);
+}
+.islands #btn4:checked~.switch label[for="btn4"]:hover {
+  background-color: #94e4a9;
+}
+.islands #btn5:checked~.switch label[for="btn5"]:hover {
+  background-color: #94e4a9;
+}
+.islands #btn6:checked~.switch label[for="btn6"]:hover {
+  background-color: #94e4a9;
+}
+.islands .switch label:hover {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  margin: 0 3px;
+  box-shadow: 0 0 7.5px 0 #7bea81;
+  border-radius: 50%;
+  border: 5px solid #94e4a9;
+  background-color: #94e4a9;
+}
+.islands p {
+	color: #8EB4FE;
+	text-shadow: 0 0 7px #A2FFC7;
+	margin-left: 25px;
+  margin-top: 50px;
+}
+.islands iframe {
+  margin-left: 8.5px;
+  border-radius: 10px;
+  box-shadow: 0 0 4px 0 #7BB5EA;
+}
+.islands iframe:hover {
+  margin-left: 8.5px;
+  border-radius: 10px;
+  box-shadow: 0 0 4px 0 #39AE5A;
+}
+.islands h2 {
+	color: white;
+	text-shadow: 0 0 5px #377BBA;
+	margin-left: 25px;
+	width: 100%;
+  font-size: 27px;
+}
+.links h2 {
+	position: relative;
+	color: #90DC89;
+	text-shadow: 0 0 5px #c7eeff;
+	font-size: 22.5px;
+	margin-bottom: 8px;
+	top: 7.5px;
+}
+.links a {
+	position: relative;
+	color: #90DC89;
+	text-shadow: 0 0 2.5px #c7eeff;
+	font-size: 15px;
+	text-decoration: none;
+	margin: 5px;
+	top: 12.5px;
+  transition: 0.3s;
+}
+.links img {
+	height: 53px;
+	width: 53px;
+	border-radius: 7.5px;
+	box-shadow: 0 0 8.2px #82C294;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
+  transition: 0.3s;
+}
+.links a:hover {
+	color: #89addc;
+	text-shadow: 0 0 2.5px #c7ffce;
+}
+.links img:hover {
+	box-shadow: 0 0 8.2px #82a8c2;
+}
+.links {
+	background-color: white;
+	height: 250px;
+	width: 165px;
+	text-align: center;
+	border-radius: 7.5px;
+	box-shadow: 0 0 8.2px #c2f5d1;
+	position: fixed;
+	right: 5px;
+	top: 95px;
+}
+nav {
+  border-top: 5px double #a6cadb;
+  border-bottom: 5px double #a6cadb;
+  padding: 25px 100px 25px 95px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link {
+  font-size: 24px;
+  text-decoration: none;
+  display: block;
+  color: #8EB4FE;
+	text-shadow: 0 0 7px #A2FFC7;
+  transition: 0.3s;
+}
+.nav-link:hover {
+  color: white;
+	text-shadow: 0 0 7px #8EB4FE;
+}
